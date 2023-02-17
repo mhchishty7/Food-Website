@@ -1,0 +1,36 @@
+.header {
+    @apply bg-gradient-to-b from-orange-100 to-transparent;
+}
+.header-left-col {
+    @apply w-full lg:w-6/12 p-5;
+}
+.header-badge {
+    @apply text-xs uppercase font-medium bg-amber-100 px-3 py-2 rounded-3xl inline-block text-orange-800;
+}
+.header-heading {
+    @apply mt-5 text-4xl sm:text-5xl capitalize font-bold md:w-9/12 lg:w-full;
+}
+.header-delivery {
+    @apply bg-orange-600 text-white rotate-3 inline-block px-2 py-1;
+}
+.header-paragraph {
+    @apply mt-5 text-base text-gray-500;
+}
+.header-customers-ul {
+    @apply flex items-center mt-5;
+}
+.header-customers-li {
+    @apply block w-[40px] h-[40px] overflow-hidden rounded-full border-[3.5px] border-orange-50 -ml-3 first:-ml-0;
+}
+.header-list-msg {
+    @apply ml-3 text-xs sm:text-sm font-medium text-orange-800;
+}
+.right-col {
+    @apply hidden lg:block lg:w-6/12;
+}
+.header-image {
+    @apply w-full h-auto object-cover;
+}
+.logo {
+    @apply absolute top-6 left-6 w-[140px] h-auto;
+}

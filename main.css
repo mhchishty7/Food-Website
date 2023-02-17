@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "./styles/header.css";
+@import "./styles/helper.css";
+@import "./styles/nav.css";
+@import "./styles/category.css";
+@import "./styles/dishes.css";
+@import "./styles/buttons.css";
+@import "./styles/pricing.css";
+@import "./styles/testimonials.css";
+@import "./styles/lightbox.css";
+@import "./styles/download.css";
+@import "./styles/footer.css";
+@import "./styles/loader.css";
+@import "tailwindcss/utilities";

@@ -1,0 +1,12 @@
+.container {
+    @apply max-w-screen-xl mx-auto px-6;
+}
+.row {
+    @apply flex flex-wrap;
+}
+.image-cover {
+    @apply w-full h-full object-cover;
+}
+.heading {
+    @apply text-lg uppercase text-orange-500 font-medium mb-5 underline decoration-orange-500 decoration-wavy decoration-2 underline-offset-[5px];
+}

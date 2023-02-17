@@ -1,0 +1,27 @@
+.footer {
+    @apply py-20;
+}
+.footer-logo-col {
+    @apply w-full sm:w-6/12 md:w-4/12 p-4;
+}
+.footer-logo-link {
+    @apply inline-block w-[120px] h-auto;
+}
+.footer-copyright {
+    @apply mt-3 text-base xl:w-8/12;
+}
+.footer-socials {
+    @apply mt-3;
+}
+.footer-socials a {
+    @apply ml-4 first:ml-0;
+}
+.footer-col {
+    @apply w-6/12 sm:w-3/12 md:w-4/12 lg:w-2/12 p-4;
+}
+.footer-heading {
+    @apply text-lg font-semibold capitalize;
+}
+.footer-ul-li-a {
+    @apply block text-base text-gray-500 capitalize mt-3;
+}

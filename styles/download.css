@@ -1,0 +1,12 @@
+.download {
+    @apply bg-[url("./images/app-bg.png")] w-full h-[450px] bg-cover bg-no-repeat;
+}
+.download-col {
+    @apply w-full md:w-8/12 lg:w-6/12 xl:w-5/12;
+}
+.download-heading {
+    @apply text-3xl font-medium mt-4;
+}
+.download-paragraph {
+    @apply text-gray-800 mt-4;
+}

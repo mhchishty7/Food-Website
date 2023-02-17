@@ -1,0 +1,33 @@
+.dishes {
+    @apply mt-[96px] bg-gradient-to-b from-orange-50/70 to-transparent -skew-y-2 py-20;
+}
+.dishes-column {
+    @apply w-full sm:w-6/12 lg:w-4/12 xl:w-3/12 p-3;
+}
+.dishes-image {
+    @apply w-full h-[190px] overflow-hidden rounded-tl-2xl rounded-tr-2xl relative;
+}
+.dishes-layer {
+    @apply absolute inset-0 w-full h-full bg-black/50;
+}
+.dishes-label {
+    @apply absolute top-4 right-4 block px-3 py-1 bg-orange-500 text-white rounded-3xl text-xs capitalize;
+}
+.dishes-title {
+    @apply text-base sm:text-lg capitalize text-gray-900
+}
+.dishes-avg-rating {
+    @apply inline-block text-orange-700 text-sm font-semibold;
+}
+.dishes-all-rating {
+    @apply inline-block text-sm text-gray-500 ml-1;
+}
+.dishes-pricing {
+    @apply mt-1 flex justify-between;
+}
+.dishes-price {
+    @apply text-base text-orange-800 font-medium;
+}
+.dishes-discount {
+    @apply line-through text-base text-gray-400;
+}
